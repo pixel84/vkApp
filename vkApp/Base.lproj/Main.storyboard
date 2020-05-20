@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,93 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="vkApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="interactive" translatesAutoresizingMaskIntoConstraints="NO" id="cmS-Fb-apm">
+                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kgw-5i-MBo">
+                                        <rect key="frame" x="169" y="107" width="37" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OWz-Bu-Dr7">
+                                        <rect key="frame" x="20" y="138" width="335" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IqH-1R-Hdk">
+                                        <rect key="frame" x="150.66666666666666" y="192" width="74" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xMQ-c0-uBX">
+                                        <rect key="frame" x="20" y="223" width="335" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tas-Nj-fhh">
+                                        <rect key="frame" x="169" y="297" width="37" height="30"/>
+                                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <state key="normal" title="Enter"/>
+                                        <connections>
+                                            <action selector="buttonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="f6e-Rn-EMj"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="vkApp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kHc-PG-wBV">
+                                        <rect key="frame" x="156.66666666666666" y="20" width="62" height="27"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="kHc-PG-wBV" firstAttribute="centerX" secondItem="cmS-Fb-apm" secondAttribute="centerX" id="09E-nz-MoB"/>
+                                    <constraint firstAttribute="trailing" secondItem="OWz-Bu-Dr7" secondAttribute="trailing" constant="20" id="32f-j0-hpl"/>
+                                    <constraint firstAttribute="bottom" secondItem="Tas-Nj-fhh" secondAttribute="bottom" constant="10" id="45A-2o-pZD"/>
+                                    <constraint firstItem="Kgw-5i-MBo" firstAttribute="top" secondItem="kHc-PG-wBV" secondAttribute="bottom" constant="60" id="7yn-DB-c7g"/>
+                                    <constraint firstItem="xMQ-c0-uBX" firstAttribute="centerX" secondItem="cmS-Fb-apm" secondAttribute="centerX" id="Ae8-pD-jsf"/>
+                                    <constraint firstItem="xMQ-c0-uBX" firstAttribute="leading" secondItem="aIW-6z-fTv" secondAttribute="leading" constant="20" id="GcW-Po-Ocf"/>
+                                    <constraint firstItem="xMQ-c0-uBX" firstAttribute="top" secondItem="IqH-1R-Hdk" secondAttribute="bottom" constant="10" id="IAH-eW-n2e"/>
+                                    <constraint firstItem="kHc-PG-wBV" firstAttribute="top" secondItem="cmS-Fb-apm" secondAttribute="top" constant="20" id="JB2-qi-Qkj"/>
+                                    <constraint firstItem="Tas-Nj-fhh" firstAttribute="centerX" secondItem="cmS-Fb-apm" secondAttribute="centerX" id="Qca-c0-pgu"/>
+                                    <constraint firstItem="IqH-1R-Hdk" firstAttribute="top" secondItem="OWz-Bu-Dr7" secondAttribute="bottom" constant="20" id="RVG-cF-BhH"/>
+                                    <constraint firstItem="OWz-Bu-Dr7" firstAttribute="leading" secondItem="cmS-Fb-apm" secondAttribute="leading" constant="20" id="TR7-27-25M"/>
+                                    <constraint firstItem="Tas-Nj-fhh" firstAttribute="top" secondItem="xMQ-c0-uBX" secondAttribute="bottom" constant="40" id="WNt-oO-J24"/>
+                                    <constraint firstItem="aIW-6z-fTv" firstAttribute="trailing" secondItem="xMQ-c0-uBX" secondAttribute="trailing" constant="20" id="eii-TC-3Ss"/>
+                                    <constraint firstItem="IqH-1R-Hdk" firstAttribute="centerX" secondItem="cmS-Fb-apm" secondAttribute="centerX" id="mdO-ZU-4jr"/>
+                                    <constraint firstItem="Kgw-5i-MBo" firstAttribute="centerX" secondItem="cmS-Fb-apm" secondAttribute="centerX" id="q2O-hm-ZuW"/>
+                                    <constraint firstItem="OWz-Bu-Dr7" firstAttribute="centerX" secondItem="cmS-Fb-apm" secondAttribute="centerX" id="sBA-AF-P3M"/>
+                                    <constraint firstItem="OWz-Bu-Dr7" firstAttribute="top" secondItem="Kgw-5i-MBo" secondAttribute="bottom" constant="10" id="xcq-HY-MOB"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="aIW-6z-fTv"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="pYC-Do-JQi"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="cmS-Fb-apm" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="MTz-VM-kDt"/>
+                            <constraint firstItem="cmS-Fb-apm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="uVZ-qy-7DM"/>
+                            <constraint firstItem="cmS-Fb-apm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ugs-UU-WCR"/>
+                            <constraint firstItem="cmS-Fb-apm" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="zgy-7U-TqA"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="loginInput" destination="OWz-Bu-Dr7" id="Ska-KQ-bVM"/>
+                        <outlet property="passwordInput" destination="xMQ-c0-uBX" id="IPM-IL-Qo5"/>
+                        <outlet property="scrollBottomConstraint" destination="MTz-VM-kDt" id="f2U-ZG-Agd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
         </scene>
     </scenes>
 </document>
