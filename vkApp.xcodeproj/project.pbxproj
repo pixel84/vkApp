@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E09B27CC24867E19001D4340 /* AllGroupsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09B27CB24867E19001D4340 /* AllGroupsController.swift */; };
-		E09B27CE24867E33001D4340 /* AllGroupsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09B27CD24867E33001D4340 /* AllGroupsCell.swift */; };
+		E06641A424877A3500AFF192 /* FriendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06641A324877A3500AFF192 /* FriendsController.swift */; };
+		E06641A724878DBC00AFF192 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06641A624878DBC00AFF192 /* Group.swift */; };
+		E06641A924878E9300AFF192 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06641A824878E9300AFF192 /* User.swift */; };
+		E06641AB24879D1F00AFF192 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06641AA24879D1F00AFF192 /* FriendTableViewCell.swift */; };
+		E06641AD24879FEE00AFF192 /* PhotoAlbumController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06641AC24879FEE00AFF192 /* PhotoAlbumController.swift */; };
+		E06641AF2487AC3000AFF192 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06641AE2487AC3000AFF192 /* PhotoCollectionViewCell.swift */; };
+		E08FFA9E2487B98F007DBEA6 /* GroupsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08FFA9D2487B98F007DBEA6 /* GroupsController.swift */; };
+		E08FFAA02487B9FA007DBEA6 /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08FFA9F2487B9FA007DBEA6 /* GroupTableViewCell.swift */; };
+		E09B27CC24867E19001D4340 /* AddGroupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09B27CB24867E19001D4340 /* AddGroupTableViewController.swift */; };
+		E09B27CE24867E33001D4340 /* AddGroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09B27CD24867E33001D4340 /* AddGroupTableViewCell.swift */; };
 		E0FF0C1724754F0A00581088 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF0C1624754F0A00581088 /* AppDelegate.swift */; };
 		E0FF0C1924754F0A00581088 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF0C1824754F0A00581088 /* SceneDelegate.swift */; };
 		E0FF0C1B24754F0A00581088 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF0C1A24754F0A00581088 /* ViewController.swift */; };
@@ -18,8 +26,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E09B27CB24867E19001D4340 /* AllGroupsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupsController.swift; sourceTree = "<group>"; };
-		E09B27CD24867E33001D4340 /* AllGroupsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupsCell.swift; sourceTree = "<group>"; };
+		E06641A324877A3500AFF192 /* FriendsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsController.swift; sourceTree = "<group>"; };
+		E06641A624878DBC00AFF192 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		E06641A824878E9300AFF192 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E06641AA24879D1F00AFF192 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		E06641AC24879FEE00AFF192 /* PhotoAlbumController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAlbumController.swift; sourceTree = "<group>"; };
+		E06641AE2487AC3000AFF192 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		E08FFA9D2487B98F007DBEA6 /* GroupsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsController.swift; sourceTree = "<group>"; };
+		E08FFA9F2487B9FA007DBEA6 /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		E09B27CB24867E19001D4340 /* AddGroupTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroupTableViewController.swift; sourceTree = "<group>"; };
+		E09B27CD24867E33001D4340 /* AddGroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroupTableViewCell.swift; sourceTree = "<group>"; };
 		E0FF0C1324754F0A00581088 /* vkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0FF0C1624754F0A00581088 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0FF0C1824754F0A00581088 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,13 +57,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E09B27CA24867DB3001D4340 /* AllGroups */ = {
+		E06641A2248779CE00AFF192 /* Friends */ = {
 			isa = PBXGroup;
 			children = (
-				E09B27CB24867E19001D4340 /* AllGroupsController.swift */,
-				E09B27CD24867E33001D4340 /* AllGroupsCell.swift */,
+				E06641A324877A3500AFF192 /* FriendsController.swift */,
+				E06641AA24879D1F00AFF192 /* FriendTableViewCell.swift */,
+				E06641AC24879FEE00AFF192 /* PhotoAlbumController.swift */,
+				E06641AE2487AC3000AFF192 /* PhotoCollectionViewCell.swift */,
 			);
-			path = AllGroups;
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		E06641A524878D8E00AFF192 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E06641A624878DBC00AFF192 /* Group.swift */,
+				E06641A824878E9300AFF192 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E09B27CA24867DB3001D4340 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				E09B27CB24867E19001D4340 /* AddGroupTableViewController.swift */,
+				E09B27CD24867E33001D4340 /* AddGroupTableViewCell.swift */,
+				E08FFA9D2487B98F007DBEA6 /* GroupsController.swift */,
+				E08FFA9F2487B9FA007DBEA6 /* GroupTableViewCell.swift */,
+			);
+			path = Groups;
 			sourceTree = "<group>";
 		};
 		E0FF0C0A24754F0A00581088 = {
@@ -69,7 +107,9 @@
 		E0FF0C1524754F0A00581088 /* vkApp */ = {
 			isa = PBXGroup;
 			children = (
-				E09B27CA24867DB3001D4340 /* AllGroups */,
+				E06641A524878D8E00AFF192 /* Models */,
+				E06641A2248779CE00AFF192 /* Friends */,
+				E09B27CA24867DB3001D4340 /* Groups */,
 				E0FF0C1624754F0A00581088 /* AppDelegate.swift */,
 				E0FF0C1824754F0A00581088 /* SceneDelegate.swift */,
 				E0FF0C1A24754F0A00581088 /* ViewController.swift */,
@@ -152,10 +192,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E06641A724878DBC00AFF192 /* Group.swift in Sources */,
+				E08FFA9E2487B98F007DBEA6 /* GroupsController.swift in Sources */,
 				E0FF0C1B24754F0A00581088 /* ViewController.swift in Sources */,
-				E09B27CC24867E19001D4340 /* AllGroupsController.swift in Sources */,
+				E06641A424877A3500AFF192 /* FriendsController.swift in Sources */,
+				E09B27CC24867E19001D4340 /* AddGroupTableViewController.swift in Sources */,
+				E06641AB24879D1F00AFF192 /* FriendTableViewCell.swift in Sources */,
+				E06641A924878E9300AFF192 /* User.swift in Sources */,
+				E08FFAA02487B9FA007DBEA6 /* GroupTableViewCell.swift in Sources */,
 				E0FF0C1724754F0A00581088 /* AppDelegate.swift in Sources */,
-				E09B27CE24867E33001D4340 /* AllGroupsCell.swift in Sources */,
+				E09B27CE24867E33001D4340 /* AddGroupTableViewCell.swift in Sources */,
+				E06641AD24879FEE00AFF192 /* PhotoAlbumController.swift in Sources */,
+				E06641AF2487AC3000AFF192 /* PhotoCollectionViewCell.swift in Sources */,
 				E0FF0C1924754F0A00581088 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

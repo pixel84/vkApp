@@ -1,5 +1,5 @@
 //
-//  AllGroupsCell.swift
+//  AddGroupTableViewCell.swift
 //  vkApp
 //
 //  Created by Alex Shader on 02.06.2020.
@@ -8,20 +8,19 @@
 
 import UIKit
 
-class AllGroupsCell: UITableViewCell {
+class AddGroupTableViewCell: UITableViewCell {
     
     
-    @IBOutlet weak var groupCell: UILabel!
+    @IBOutlet weak var groupNameLabel: UILabel!
+    @IBOutlet weak var avatarImageView: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
         
-        // Configure the view for the selected state
     }
     
 }

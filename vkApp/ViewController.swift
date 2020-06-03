@@ -30,15 +30,6 @@ class ViewController: UIViewController {
             object: nil)
     }
     
-    //    @IBAction func buttonPressed() {
-    //        let login = loginInput.text!
-    //        let password = passwordInput.text!
-    //        if login == "admin" && password == "123456" {
-    //            print("Access Granted")
-    //        } else {
-    //            print("Access Denied")
-    //        }
-    //    }
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
         switch identifier {
         case "loginSegue":
